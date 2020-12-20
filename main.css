@@ -1,0 +1,185 @@
+body {
+      width:auto;
+      max-width: 1280px;
+      margin: 0 auto;
+      color:#5e5e5e;
+      font-family:tahoma !important;
+      position:relative;
+    }
+    #pageContent {
+      width:70%;
+      padding:0 30px;
+      float:right;
+      margin-bottom:50px;
+    }
+    #sidebar {
+      background-color:#ACE3F9;
+      width:20%;
+      padding:0 30px;
+      float:left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+    }
+
+    #imageWrap img {
+      width:200px;
+      height:200px;
+      display:block;
+      margin:auto;
+      border-radius:50%;
+      margin-top:100px;
+    }
+    .sectionTitle{
+      background-color:#525252;
+      color:#fff;
+      text-align:center;
+      padding:10px;
+      margin-top:30px;
+    }
+    .sectionTitle h1 {
+      margin:0;
+    }
+    .educationSection, .contactSection {
+      margin-top:30px;
+      margin-bottom:30px;
+    }
+    .educationSection h3,.educationSection h5,.educationSection p , .contactSection p  {
+      margin:0;
+    }
+    .educationSection h3 {
+      font-weight:bold;
+    }
+    .educationSection p {
+      margin-top:5px;
+    }
+    
+    .contactSection {
+      display:table;
+    }
+    
+    .contactSection p{
+      font-size:15px;
+      font-weight: 600;
+      margin-bottom:2px;
+    }
+    
+    .contactIcon, .contactDetails {
+      display:table-cell;
+    }
+    .contactIcon {
+      vertical-align: middle;
+    }
+    .contactDetails {
+      padding-left:20px;
+      vertical-align: top;
+    }
+    
+    .Nom {
+      background-color:#525252;
+      color:#fff;
+      height:300px;
+      text-align:center;
+      text-transform:uppercase;
+      margin-bottom:60px;
+    }
+    
+    .Nom h1 {
+      padding-top: 60px;
+      letter-spacing: 10px;
+      font-weight: normal;
+      line-height: 50px;
+      font-size:40px;
+      margin-top:0;
+    }
+    
+    .Nom hr {
+      width: 40px;
+    }
+    .Nom h2 {
+      font-weight: normal;
+      margin-top: 30px;
+    }
+    
+    #pageContent p {
+      line-height:25px;
+    }
+    
+    .divider img {
+      width:100%;
+      max-width:400px;
+      margin:auto;
+      display:block;
+    }
+    
+    .Experience h1 {
+      text-align:center;
+      font-weight:normal;
+      letter-spacing: 5px;
+    }
+    
+    .experienceSection {
+      text-align:center;
+      margin-top:40px;
+    }
+    .experienceSection h3 {
+      margin-bottom:10px;
+    }
+    .experienceSection h3 small{
+      font-weight:normal;
+    }
+    .experienceSection p {
+      margin-top:5px;
+      font-size:14px;
+    }
+    .Logiciel {
+      float:left;
+    }
+    .Langues {
+      float:right;
+    }
+    .Logiciel, .Langues {
+      margin:0;
+      margin-top:20px;
+      width:46%;
+      padding:30px 50px;
+      font-weight:bold;
+      box-sizing: border-box;
+      background-color:#ACE3F9;
+    }
+    
+    .Logiciel p, .Langues p {
+      margin:5px;
+    }
+    
+    .progress {
+      width: 100%;
+      height: 20px;
+      border-radius: 10px;
+    }
+    .progress-wrap {
+      background: #B1B5B0;
+      margin: 5px 0 12px 0;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar {
+      background: #686A6C;
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+    
+    .clearfix {
+      overflow: auto;
+    }
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+      }
